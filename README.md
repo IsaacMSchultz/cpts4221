@@ -1,18 +1,9 @@
 # Hi Bolong. I added you to the repo
 
-# Deliverable 3 Team Members:
+Deliverable 3: Documentation and Tests
 
-Isaac Schultz
-Sean Wallace
-Drew Kelly
-Kenzo Banaag
+Daniel: Main test writer
 
-# Original Team members:
+Brandon and Juan: White Box documentation and charts
 
-Daniel Yune
-
-Juan Barco
-
-Rebecca Rothschild
-
-Newest Addition: Brandon Le
+Rebecca: Black Box documentation and charts

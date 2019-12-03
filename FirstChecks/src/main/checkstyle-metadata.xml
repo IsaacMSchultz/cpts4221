@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+	<rule-group-metadata name="Team Rebecca checks"
+		priority="1600">
+		<description>%FirstChecks.desc</description>
+
+		<rule-metadata name="%VariablesCheck.name"
+			internal-name="Variables" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.VariablesCheck" />
+			<description>%VariablesCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%LoopsCheck.name"
+			internal-name="Loops" parent="TreeWalker">
+			<alternative-name internal-name="main.LoopsCheck" />
+			<description>%LoopsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%CastsCheck.name"
+			internal-name="Casts" parent="TreeWalker">
+			<alternative-name internal-name="main.CastsCheck" />
+			<description>%CastsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="HalsteadMetricsCheck.name"
+			internal-name="HalsteadMetrics" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.HalsteadMetricsCheck" />
+			<description>%HalsteadMetricsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%LinesOfCommentsCheck.name"
+			internal-name="LinesOfComments" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.LinesOfCommentsCheck" />
+			<description>%LinesOfCommentsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%TotalCommentsCheck.name"
+			internal-name="TotalComments" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.TotalCommentsCheck" />
+			<description>%TotalCommentsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="ExpressionsCheck.name"
+			internal-name="Expressions" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.ExpressionsCheck" />
+			<description>%ExpressionsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%LocalMethodsCheck.name"
+			internal-name="LocalMethods" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.LocalMethodsCheck" />
+			<description>%LocalMethodsCheck.desc</description>
+		</rule-metadata>
+
+		<rule-metadata name="%ExternalMethodsCheck.name"
+			internal-name="ExternalMethods" parent="TreeWalker">
+			<alternative-name
+				internal-name="main.ExternalMethodsCheck" />
+			<description>%ExternalMethodsCheck.desc</description>
+		</rule-metadata>
+
+	</rule-group-metadata>
+</checkstyle-metadata>
